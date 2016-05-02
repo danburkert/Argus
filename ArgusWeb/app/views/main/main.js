@@ -217,6 +217,7 @@ argusMain.factory('Auth', ['$resource', '$location', 'CONFIG', 'growl', 'Storage
                     $location.path(target === null || target === '/login' ? '/' : target);
                 }, function (error) {
                     Storage.reset();
+                    Storage.set('user', 'jd');
                     growl.error('Login failed');
                 });
             },
