@@ -372,6 +372,11 @@
             <artifactId>asynchbase</artifactId>
             <version>1.7.0</version>
         </dependency>
+        <dependency>
+                <groupId>org.kududb</groupId>
+                <artifactId>kudu-ts</artifactId>
+                <version>0.9.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
     <dependencyManagement>
         <dependencies>
